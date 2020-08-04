@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Contact</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+<style>
+	.fa {
+		padding: 2px;
+		font-size: 29px; 
+	}
+	.footer
+	{
+		padding-top: 24px;
+		color:#FFF;
+		background-color:#383737;
+	}
+	.footer-ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+</style>    
+    
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      	</button>
+          <a class="navbar-brand" href="#">Online Shopping</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="bootstrap3.html">Home</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Product</a>
+                  <ul class="dropdown-menu">
+                    	<li><a href="bootstrap3 product.html#men_collection">Men's Fashion</a></li>
+                        <li><a href="bootstrap3 product.html#women_collection">Women's Fashion</a></li>
+                        <li><a href="bootstrap3 product.html#kids_collection">Baby, Toys & Kids</a></li>
+                  </ul>
+              </li>
+              <li class="active"><a href="bootstrap3 about.html">About Us</a></li>
+              <li><a href="bootstrap3 contact.html">Contact Us</a></li>
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" role="button" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li class="dropdown">
+              		<a class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                     <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
+                        <li>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                    <div class="form-group">
+                                       <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                       <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                                    </div>
+                                    <div class="form-group">
+                                       <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                       <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                    </div>
+                                    <div class="checkbox">
+                                       <label>
+                                       <input type="checkbox"> Remember me
+                                       </label>
+                                    </div>
+                                    <div class="form-group">
+                                       <button type="submit" class="btn btn-success btn-block">Sign in</button>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                           <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
+                           <input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
+                        </li>
+                     </ul>
+                  </li>
+            </ul>
+        </div>
+     </div>
+</nav>
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header" align="center">
+					<img class="img-circle" id="img_logo" src="image/ONLINE-SHOPPING.png" width="150">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+					</button>
+				</div>
+                <!-- Begin # DIV Form -->
+                <div id="div-forms">
+                <!-- Begin | Register Form -->
+                    <form id="register-form">
+            		    <div class="modal-body">
+		    				<div id="div-register-msg">
+                                <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <span id="text-register-msg">Register an account.</span>
+                            </div>
+		    				<input id="register_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
+                            <input id="register_email" class="form-control" type="text" placeholder="E-Mail" required>
+                            <input id="register_password" class="form-control" type="password" placeholder="Password" required>
+            			</div>
+		    		    <div class="modal-footer">
+                            <div>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
+                            </div>
+		    		    </div>
+                    </form>
+                    <!-- End | Register Form -->   
+                </div>
+                <!-- End # DIV Form -->                
+			</div>
+		</div>
+	</div>
+
+
+    <div class="container" style="margin-top:52px;">
+        <div class="col-md-12">
+            <h3>About US</h3>
+                <hr />
+        </div>
+        <div class="col-md-6">
+            <h4>Who we are</h4>
+            <p class="text-justify">
+            	Daraz is Asia’s fastest growing online marketplace, offering an unparalleled shopping experience in Pakistan, Bangladesh, Myanmar, Sri Lanka and Nepal. Daraz hosts a wide assortment of consumer electronics, fashion and beauty products, alongside a rapidly growing miscellany of general merchandise. Daraz privileges the personalization and security of the shoppers’ experience above all else. Excellent value-for-money, large assortment of original products, fast delivery and easy returns are Daraz signatures. Daraz offers not just a retail solution of optimal convenience, it is effecting disruptive change in the digitization of the region.
+<br/><br/>
+Daraz is owned by CDC Group – the UK Government’s Development Finance Institution (DFI) focused on supporting and developing businesses in Africa and South Asia – as well as the Asia Pacific Internet Group (APACIG).
+            </p>
+        </div>
+    	<div class="col-md-5  pull-right">
+            <img src="image/about.png" width="70%"/>
+        </div>
+    </div>
+    
+  
+ <br/><br/>
+ 
+ 
+  <footer class="footer">
+      <div class="container-fluid">
+      	<div>
+        	<div class="col-md-3">
+            	<h4>Let us help you</h4>
+                <ul class="footer-ul">                
+                    <li><a href="#" title="Help Center" target="_blank">Help Center</a></li>
+                    <li><a href="#" title="Shopping on Daraz" target="_blank">How to Shop on Daraz</a></li>
+                    <li><a href="#" title="Track Your Order" target="_blank">Track Your Order</a></li>
+                    <li><a href="#" title="Corporate &amp; Bulk Purchasing" target="_blank">Corporate &amp; Bulk Purchasing</a></li>
+                    <li><a href="#" title="Returns Centre " target="_blank">Returns &amp; Refunds </a></li>
+                    <li><a href="#" title="Contact Us" target="_blank">Contact Us</a></li>
+
+                </ul>
+                <br/><br/>
+                <h4>Make Money With Us</h4>
+                <ul class="footer-ul">    
+                    <li><a href="#" title="Seller Hub" target="_blank">Seller Hub</a></li>
+                    <li><a href="#" title="Become a Sales Consultant" target="_blank">Become a Sales Consultant</a></li>
+                    <li><a href="#" title="Daraz Marketplace" target="_blank">Sell on Daraz</a></li>
+                    <li><a href="#" title="Become an affiliate" target="_blank">Become an Affiliate</a></li>
+                </ul>
+            </div>
+        	<div class="col-md-3">
+            	<h4>Get to know us</h4>
+                <ul class="footer-ul">                                    
+                    <li><a href="#" title="About Us" target="_blank">About Us</a></li>
+                    <li><a href="#" title="Current Jobs at Daraz.pk" target="_blank">Careers</a></li>
+                    <li><a href="#" title="Company" target="_blank">Terms &amp; Conditions</a></li>
+                    <li><a href="#" title="Company" target="_blank">Privacy Agreement</a></li>
+                    <li style="color: white;">NTN Number : 4012118-6</li>
+                    <li style="color: white;">STRN Number : 1700401211818</li>
+                </ul>
+                <br/><br/>
+                <h4>Cares</h4>
+                <ul class="footer-ul">
+                    <li><a href="#" title="Daraz Cares" target="_blank">About Daraz Cares</a></li>
+                    <li><a href="#" title="Citizens" target="_blank">The Citizens Foundation</a></li>
+                    <li><a href="#" title="Akhuwat" target="_blank">Akhuwat Foundation</a></li>
+                </ul>
+                
+            </div>
+            <div class="col-md-3">
+             	<h4>International</h4>
+            	<ul class="footer-ul">
+					<li><a href="#" alt="Bangladesh" title="Bangladesh">Bangladesh</a></li>
+					<li><a href="#" alt="Myanmar" title="Myanmar">Myanmar</a></li>
+					<li><a href="#" alt="Sri Lanka" title="Sri Lanka">Sri Lanka</a></li>
+					<li><a href="#" alt="Nepal" title="Nepal">Nepal</a></li>
+				</ul>
+            </div>
+            <div class="col-md-3">
+            	<h4>Join Us On</h4>
+                <div>
+                  <a href="#"><span class="fa fa-facebook-square" title="Online Shopping Facebook"></span></a>
+                  <a href="#"><span class="fa fa-twitter-square" title="Online Shopping Twiter"></span></a>
+                  <a href="#"><span class="fa fa-instagram" title="Online Shopping Instagram"></span></a>
+                  <a href="#"><span class="fa fa-google-plus-square" title="Online Shopping Google+"></span></a>
+                  <a href="#"><span class="fa fa-youtube-square" title="Online Shopping YouTube"></span></a>
+                </div> 
+                <h4>Payment Methods</h4>
+                <div>
+                	<img src="https://static.daraz.pk/cms/2017/W28/payment-icons/Payment_Icon_PK.png" 
+                    alt="" style="padding-bottom:12px;padding-right:3px;width:72px;">
+                                       
+                    <img src="https://static.daraz.pk/cms/2017/W28/payment-icons/visa.png" alt="Visa" 
+                    style="padding-bottom:12px;padding-right:3px;width:72px;" />
+                    
+                    <img src="https://static.daraz.pk/cms/2017/W28/payment-icons/mastercard.png" 
+                    alt="MasterCard" style="padding-bottom:12px;padding-right:2px;width:72px;"  />
+                    
+                    <img src="https://static.daraz.pk/cms/2017/W28/payment-icons/easypay.png" alt="" 
+                    style="padding-bottom:12px;padding-right:3px;width:72px;">
+                     
+                    <img src="https://static.daraz.pk/cms/2017/W28/payment-icons/jazzcash.png" alt="jazzCash" 
+                    style="padding-bottom:12px;padding-right:3px;width:72px;" />    
+                     
+                    <img src="https://static.daraz.pk/cms/2017/W28/payment-icons/link1.png" alt="One Link" 
+                    style="padding-bottom:12px;padding-right:3px;width:72px;" />   
+                     
+                    <img src="https://static.daraz.pk/cms/2017/W28/payment-icons/keenu.png" alt="Keenu" 
+                    style="padding-bottom:12px;padding-right:2px;width:72px;" />                                            
+                </div>
+            </div>
+        </div>
+      </div>
+      <br/>
+  </footer>
+
+  
+</body>
+</html>
